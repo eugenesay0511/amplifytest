@@ -1,10 +1,8 @@
 {
   "version": "1",
   "cognitoConfig": {
-    "identityPoolName": "amplifytest4f3a4bcd_identitypool_4f3a4bcd",
-    "allowUnauthenticatedIdentities": false,
-    "resourceNameTruncated": "amplif4f3a4bcd",
-    "userPoolName": "amplifytest4f3a4bcd_userpool_4f3a4bcd",
+    "resourceNameTruncated": "amplif73b464ae",
+    "userPoolName": "amplifytest73b464ae_userpool_73b464ae",
     "autoVerifiedAttributes": [
       "email"
     ],
@@ -31,13 +29,20 @@
     "userpoolClientReadAttributes": [
       "email"
     ],
-    "userpoolClientLambdaRole": "amplif4f3a4bcd_userpoolclient_lambda_role",
+    "userpoolClientLambdaRole": "amplif73b464ae_userpoolclient_lambda_role",
     "userpoolClientSetAttributes": false,
-    "sharedId": "4f3a4bcd",
-    "resourceName": "amplifytest4f3a4bcd",
-    "authSelections": "identityPoolAndUserPool",
-    "useDefault": "default",
-    "userPoolGroupList": [],
+    "sharedId": "73b464ae",
+    "resourceName": "amplifytest73b464ae73b464ae",
+    "authSelections": "userPoolOnly",
+    "useDefault": "manual",
+    "userPoolGroups": true,
+    "adminQueries": true,
+    "triggers": {},
+    "hostedUI": false,
+    "userPoolGroupList": [
+      "Admins"
+    ],
+    "adminQueryGroup": "Admins",
     "serviceName": "Cognito",
     "usernameCaseSensitive": false,
     "useEnabledMfas": true

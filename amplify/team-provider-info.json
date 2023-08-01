@@ -36,14 +36,24 @@
       "AmplifyAppId": "d65rnkunm5zun"
     },
     "categories": {
-      "auth": {
-        "amplifytest4f3a4bcd": {}
-      },
       "hosting": {
         "amplifyhosting": {
           "appId": "d65rnkunm5zun",
           "type": "cicd"
         }
+      },
+      "auth": {
+        "amplifytest73b464ae73b464ae": {},
+        "userPoolGroups": {}
+      },
+      "function": {
+        "AdminQueries75342684": {
+          "deploymentBucketName": "amplify-amplifytest-dev-173931-deployment",
+          "s3Key": "amplify-builds/AdminQueries75342684-44714466435174305742-build.zip"
+        }
+      },
+      "api": {
+        "AdminQueries": {}
       }
     }
   },
@@ -60,9 +70,6 @@
       "AmplifyAppId": "d65rnkunm5zun"
     },
     "categories": {
-      "auth": {
-        "amplifytest4f3a4bcd": {}
-      },
       "hosting": {
         "amplifyhosting": {
           "appId": "d65rnkunm5zun",
